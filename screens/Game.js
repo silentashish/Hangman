@@ -11,7 +11,7 @@ const Game = ({hits, misses}) => {
   const {state, dispatch} = useContext(GameContext);
 
   useEffect(() => {
-    const getDef = async word => {
+    const getDef = async (word) => {
       const res = await fetch(
         `https://www.dictionaryapi.com/api/v3/references/sd3/json/${word}?key=9b7e2d84-d88e-42ac-b22d-cd41cc72966f`,
       );

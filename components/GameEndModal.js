@@ -5,7 +5,7 @@ import {GameContext} from '../utils/gameContext';
 const GameEndModal = () => {
   const {state, dispatch} = useContext(GameContext);
 
-  const sentanceCase = sentance => {
+  const sentanceCase = (sentance) => {
     const first = sentance.charAt(0).toUpperCase();
     const rest = sentance.slice(1);
     return first + rest;
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   gameendText: {
-    backgroundColor: '#ff00ff',
+    backgroundColor: '#214252',
     color: '#fff',
     fontFamily: 'RobotoMono-Regular',
     textAlign: 'center',

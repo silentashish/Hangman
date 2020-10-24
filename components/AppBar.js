@@ -5,7 +5,7 @@ import {StyleSheet, View, Text} from 'react-native';
 const AppBar = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>HANG_AN</Text>
+      <Text style={styles.text}>HANGMAN</Text>
     </View>
   );
 };
@@ -21,8 +21,9 @@ const styles = StyleSheet.create({
     position: 'absolute',
     color: 'white',
     fontFamily: 'RobotoMono-Regular',
-    fontSize: 50,
-    letterSpacing: 6,
+    fontSize: 45,
+    letterSpacing: 8,
+    fontWeight: 'bold',
   },
 });
 
