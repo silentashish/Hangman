@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    fontFamily: 'RobotoMono-Regular',
+    fontFamily: 'Avenir',
     fontSize: 24,
   },
 });

@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     fontSize: 24,
-    fontFamily: 'RobotoMono-Regular',
+    fontFamily: 'Avenir',
   },
   shadow: {
     position: 'absolute',

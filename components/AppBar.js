@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   text: {
     position: 'absolute',
     color: 'white',
-    fontFamily: 'RobotoMono-Regular',
+    fontFamily: 'Baskerville',
     fontSize: 45,
     letterSpacing: 8,
     fontWeight: 'bold',

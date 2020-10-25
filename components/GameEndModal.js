@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   gameendText: {
     backgroundColor: '#214252',
     color: '#fff',
-    fontFamily: 'RobotoMono-Regular',
+    fontFamily: 'Avenir',
     textAlign: 'center',
     fontSize: 40,
   },
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 70,
     top: -75,
     backgroundColor: '#fff',
-    fontFamily: 'RobotoMono-Regular',
+    fontFamily: 'Avenir',
     textAlign: 'center',
     textAlignVertical: 'center',
     fontSize: 30,
